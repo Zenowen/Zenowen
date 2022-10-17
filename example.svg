@@ -14,35 +14,6 @@
                     animation-fill-mode: forwards;
                   }
                   
-                  .css-typing .second {
-                    opacity: 0;
-                    width: 13vw;
-                    animation: type2 2s steps(40, end);
-                    font-size: 1.35em;
-                    animation-fill-mode: forwards;
-                    animation-delay: 2s;
-                    
-                  }
-                  
-                  .css-typing .third {
-                    opacity: 0;
-                    width: 36vw;
-                    animation: type2 2s steps(40, end);
-                    font-size: 1.35em;
-                    animation-fill-mode: forwards;
-                    animation-delay: 4s;
-                    
-                  }
-                  
-                  .css-typing .fourth {
-                    opacity: 0;
-                    width: 13vw;
-                    animation: type2 2s steps(40, end);
-                    font-size: 1.35em;
-                    animation-fill-mode: forwards;
-                    animation-delay: 6s;
-                    
-                  }
                   
                   @keyframes type {
                     0% {
@@ -83,18 +54,7 @@
                     Hey, you. You're finally awake.
                   </h1>
               
-                  <p class="second">
-                    Welcome to my page!.
-                  </p>
-              
-                  <p class="third">
-                    <br>
-                    I'm Abraham, Fullstack developer from Seville, Spain <img src="https://cdn-icons-png.flaticon.com/512/197/197593.png" width="13"/> .
-                  </p>
-              
-                  <h4 class="fourth">
-                    Things I code with
-                  </h4>
+                 
                 </div>
             </div>
         </foreignObject>
