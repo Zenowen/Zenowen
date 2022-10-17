@@ -9,14 +9,14 @@
               overflow: hidden;
             }
             .css-typing h1:nth-child(1) {
-              width: 29vw;
+              width: 50vw;
               animation: type 2s steps(40, end);
               animation-fill-mode: forwards;
             }
             
             .css-typing h1:nth-child(2) {
               opacity: 0;
-              width: 29vw;
+              width: 50vw;
               animation: type2 2s steps(40, end);
               animation-fill-mode: forwards;
               animation-delay: 2s;
