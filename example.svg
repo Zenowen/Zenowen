@@ -1,23 +1,71 @@
 <svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-            h1 {
-                color: red;
-                animation: mymove 2s infinite;
-                font-family:monospace;
-                }
-
-            @keyframes mymove {
-                from {
-                    color: red;
-                }
-                to {
-                    color: yellow;
-                }
+  <foreignObject width="100%" height="100%">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+          <style>
+            .css-typing h1 {
+              border-right: .15em solid orange;
+              font-family:monospace;
+              white-space: nowrap;
+              overflow: hidden;
             }
-            </style>
-            <h1>HELLO WORLD!</h1>
-        </div>
-    </foreignObject>
+            .css-typing h1:nth-child(1) {
+              width: 29vw;
+              animation: type 2s steps(40, end);
+              animation-fill-mode: forwards;
+            }
+            
+            .css-typing h1:nth-child(2) {
+              opacity: 0;
+              width: 29vw;
+              animation: type2 2s steps(40, end);
+              animation-fill-mode: forwards;
+              animation-delay: 2s;
+              
+            }
+            
+            @keyframes type {
+              0% {
+                width: 0;
+              }
+              99.9% {
+                border-right: .15em solid orange;
+              }
+              100% {
+                border: none;
+              }
+            }
+            
+            @keyframes type2 {
+              0% {
+                width: 0;
+              }
+              1%{
+                opacity: 1;
+              }
+              99.9% {
+                border-right: .15em solid orange;
+              }
+              100% {
+                opacity: 1;
+                border: none;
+              }
+            }
+            
+            @keyframes blink {
+              50% {
+                border-color: transparent;
+              }
+            }
+          </style>
+          <div class="css-typing">
+            <h1>
+              Hey, you. You're finally awake.
+            </h1>
+        
+            <h1>
+              Hey, you. You're finally awake.
+            </h1>
+          </div>
+      </div>
+  </foreignObject>
 </svg>
